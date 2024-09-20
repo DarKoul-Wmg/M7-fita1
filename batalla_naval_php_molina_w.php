@@ -19,11 +19,11 @@
 					if($i == 0 && $j == 0){
 						echo"<td style='border: 1px solid black;border-collapse: collapse'></td>";
 						
-					} else if($i == 0){
-						echo"<td style='border: 1px solid black;border-collapse: collapse'>$j</td>";
 					} else if($j == 0){
 						$char = chr($i + 64);
 						echo"<td style='border: 1px solid black;border-collapse: collapse'>$char</td>";
+					} else if($i == 0){
+						echo"<td style='border: 1px solid black;border-collapse: collapse'>$j</td>";
 					} else {
 						echo"<td style='border: 1px solid black;border-collapse: collapse'></td>";
 					}
